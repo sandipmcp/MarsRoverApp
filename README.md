@@ -47,11 +47,11 @@ There is no limit for the Plateau size
 Inputs will always be valid, so there is no need to validate them
 There is no 0,0 position
 
-
+-----------------
 Build
 dotnet restore
 dotnet build
 dotnet run --project MarsRoverApp/MarsRoverApp.csproj
-
+-------------------
 Test
 dotnet test MarsRoverApp/MarsRover.Domain.Test.csproj
